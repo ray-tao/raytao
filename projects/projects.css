@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75vh;
+    font-family: Andale Mono, monospace;
+    margin-top: 80px;
+}
+#divtop {
+    margin-bottom: 10px;
+}
+#projects {
+    font-size: 60px;
+}
+a {
+    color:burlywood;
+}
+.divbottom {
+    margin-top: 20px;
+}

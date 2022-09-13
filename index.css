@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75vh;
+    font-family: Andale Mono, monospace;
+    margin-top: 80px;
+}
+#divtop {
+    margin-bottom: 10px;
+}
+#raytao {
+    font-size: 60px;
+}
+.link {
+    color: burlywood;
+}
+#divbottom {
+    margin-top: 100px;
+}
+#divwebring {
+    margin-top: 50px;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
