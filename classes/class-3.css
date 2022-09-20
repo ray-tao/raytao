@@ -1,0 +1,73 @@
+p{
+    font-size: 32px;
+}
+
+span{
+    color: lightblue;
+    background-color: midnightblue;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: inline-block;
+}
+
+#div1{
+    background-color: darkcyan;
+    width: 100px;
+    height: 100px;
+}
+#div2{
+    width: 500px;
+    height: 500px;
+    border: 10px black solid;
+    padding: 100px;
+    margin: 100px;
+    box-sizing: content-box;
+}
+
+#div3{
+    width: 500px;
+    height: 500px;
+    border: 10px black solid;
+    padding: 100px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#div4{
+    width: 2000px;
+    height: 2000px;
+    background-color: cadetblue;
+    background-image: url(minecrafthouse.png);
+    background-size: auto;
+    background-repeat: repeat-x;
+}
+
+.text-box{
+    background-color: powderblue;
+    width: 1000px;
+    height: 1000px;
+    font-size: 20px;
+}
+
+.large-font{
+    font-size: 36px;
+}
+
+.text-box>p{
+    font-size: 3em;
+}
+
+.parent{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+}
+
+.parent p{
+    color:midnightblue;
+}
+
+.parent>p{
+    color: steelblue;
+}

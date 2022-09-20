@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Orbitron", sans-serif;
+    gap: 20px;
+    font-size: 12px;
+    background-image: url("flowerbg.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+}
+
+.heading {
+    letter-spacing: 7px;
+    color: #c2352e;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2,
+h3,
+h4,
+h6 {
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+h4 {
+    color: #c2352e;
+}
+
+h5 {
+    text-align: center;
+    width: 350px;
+    margin: 0;
+    color: #c2352e;
+    letter-spacing: 2px;
+}
+
+#rice {
+    text-align: center;
+    width: 375px;
+}
+
+#divider {
+    color: #c2352e;
+    letter-spacing: 2px;
+}

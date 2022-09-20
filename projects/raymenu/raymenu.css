@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 65vh;
+    font-family: "andale mono";
+    font-size: 12px;
+    background-image: url("pexels-liudnaya.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-left: 365px;
+    padding-top: 240px;
+    gap: 20px;
+}
+h3 {
+    margin: 0;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

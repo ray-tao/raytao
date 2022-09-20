@@ -6,6 +6,10 @@ body {
     height: 75vh;
     font-family: Andale Mono, monospace;
     margin-top: 80px;
+    background-image: url("../pexels-a.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #divtop {
@@ -13,18 +17,17 @@ body {
 }
 
 #homework {
-    "font-size: 60px;
+    font-size: 60px;
 }
 
-li, a {
+li,
+a {
     color: burlywood;
 }
 
 #divmiddle {
-     margin-top: 20px;
+    margin-top: 20px;
 }
 #divbottom {
     margin-top: 50px;
 }
-
-
