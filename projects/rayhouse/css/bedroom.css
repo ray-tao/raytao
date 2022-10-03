@@ -1,11 +1,26 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 75vh;
-    background-color: #DBBFDB;
+    background-color: #dbbfdb;
 }
-.livingroom{
-     color: darkorange;
+.livingroom {
+    color: darkorange;
+}
+
+#bed {
+    color: palevioletred;
+    text-decoration: underline;
+}
+
+#bed:hover + #disorganized {
+    display: block;
+}
+
+#disorganized {
+    display: none;
+    position: absolute;
+    right: 45%;
 }

@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,6 +6,21 @@ body{
     height: 75vh;
     background-color: palegoldenrod;
 }
-#livingroom{
+#livingroom {
     color: darkorange;
+}
+
+#table {
+    color: palevioletred;
+    text-decoration: underline;
+}
+
+#table:hover + #food {
+    display: block;
+}
+
+#food {
+    display: none;
+    position: absolute;
+    right: 45%;
 }

@@ -1,17 +1,45 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 75vh;
-    background-color:#FED8C1;
+    background-color: #fed8c1;
 }
-#dining{
-    color: yellowgreen
+#dining {
+    color: yellowgreen;
 }
-#bedroom{
-    color: #CCA9DD
+#bedroom {
+    color: #cca9dd;
 }
-.exit{
-    color:skyblue
+.exit {
+    color: skyblue;
+}
+#tv {
+    color: palevioletred;
+    text-decoration: underline;
+}
+#tv:hover + #rachelgreen {
+    display: block;
+}
+
+#rachelgreen {
+    display: none;
+    position: absolute;
+    right: 45%;
+}
+
+#window {
+    color: palevioletred;
+    text-decoration: underline;
+}
+
+#window:hover + #birds {
+    display: block;
+}
+
+#birds {
+    display: none;
+    position: absolute;
+    right: 45%;
 }
