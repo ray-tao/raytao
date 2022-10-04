@@ -1,15 +1,18 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 75vh;
     font-family: Andale Mono, monospace;
-    margin-top: 80px;
+    margin: 0;
     background-image: url("../pexels-a.jpg");
     background-repeat: no-repeat, repeat;
     background-position: center;
     background-size: cover;
+}
+#background {
+    height: 100vh;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 #divtop {
     margin-bottom: 10px;
@@ -17,9 +20,27 @@ body {
 #projects {
     font-size: 60px;
 }
+
 a {
-    color: burlywood;
+    text-decoration: none;
+    color: black;
 }
+
+h2 {
+    background-color: burlywood;
+    padding: 10px;
+    color: black;
+    width: 50%;
+    transition: width 500ms ease-in-out;
+    text-align: center;
+}
+
+h2:hover {
+    background-color: #c7965a;
+    cursor: pointer;
+    width: 60%;
+}
+
 .divbottom {
     margin-top: 20px;
 }

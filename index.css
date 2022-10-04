@@ -11,21 +11,47 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 #divtop {
     margin-bottom: 10px;
 }
+
 #raytao {
     font-size: 60px;
 }
+
 .link {
     color: burlywood;
+    text-decoration: none;
+    color: black;
 }
+
 #divbottom {
     margin-top: 100px;
 }
+
 #divwebring {
     margin-top: 50px;
     display: flex;
     gap: 150px;
     align-items: center;
+}
+
+h2 {
+    background-color: burlywood;
+    padding: 10px;
+    color: black;
+    width: 10%;
+    transition: width 500ms ease-in-out;
+    text-align: center;
+}
+
+h2:hover {
+    background-color: #c7965a;
+    cursor: pointer;
+    width: 20%;
+}
+
+.divbottom {
+    margin-top: 20px;
 }
