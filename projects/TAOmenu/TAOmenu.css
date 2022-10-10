@@ -13,6 +13,18 @@ body {
     background-position: center;
 }
 
+#original {
+    position: absolute;
+    width: 20%;
+    right: 30px;
+}
+
+@media (max-width: 1100px) {
+    #original {
+        display: none;
+    }
+}
+
 .heading {
     letter-spacing: 7px;
     color: #c2352e;

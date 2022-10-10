@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100vh;
+    font-family: din-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    cursor: help;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle {
+    z-index: -1;
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+}
+
+.eye {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    background: #ccc;
+}
+.eye:after {
+    position: absolute;
+    bottom: 68px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    background: #000;
+    border-radius: 50%;
+    content: " ";
+}
+
+#question-marks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    font-size: 55px;
+}

@@ -1,24 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    min-height: 65vh;
-    font-family: "andale mono";
-    font-size: 12px;
-    background-image: url("pexels-liudnaya.jpg");
-    background-position: center;
-    background-size: cover;
-    padding-left: 365px;
-    padding-top: 240px;
-    gap: 20px;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(./images/room.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: bottom;
 }
-h3 {
-    margin: 0;
-}
-div {
+
+#background {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+}
+
+#menu {
+    width: 900px;
+    height: 600px;
+    gap: 20px;
+    display: flex;
+}
+
+.menu-column {
+    display: flex;
+    height: 100%;
+    width: 100%;
     flex-direction: column;
+}
+
+.menu-info {
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(222, 184, 135, 0.7);
+}
+
+.menu-img {
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+}
+
+#hug {
+    background-image: url("./images/hug.png");
+}
+
+#talk {
+    background-image: url("./images/talk.png");
+}
+
+#bracelet {
+    background-image: url("./images/bracelet.png");
+}
+
+.info {
+    text-align: center;
+    padding: 30px;
+    font-family: din-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }

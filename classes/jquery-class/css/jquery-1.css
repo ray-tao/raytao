@@ -1,0 +1,19 @@
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+}
+
+#box1.blackbox {
+    background-color: black;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+}
+
+#box2.greenbox {
+    background-color: lightseagreen;
+}
