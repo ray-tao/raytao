@@ -11,57 +11,51 @@ body {
 }
 
 #background {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
     position: absolute;
     background-image: url(museum-background.png);
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center;
-}
-
-#week1,
-#week2 {
-    background: black;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    width: 10%;
-    height: 10%;
-}
-
-#week1 {
-    position: absolute;
-    top: 30%;
-    right: 51%;
-}
-
-#week2 {
-    position: absolute;
-    top: 30%;
-    right: 39%;
-}
-/* #container {
-    position: relative;
+    background-size: contain;
     width: 100%;
+    aspect-ratio: 1.93/1;
 }
 
-#thoughts {
+#thoughts-container {
     clip-path: ellipse(50% 40% at 50% 50%);
     background-color: black;
     height: 55%;
     max-height: 55%;
-    width: 57%;
+    width: 54%;
     max-width: 57%;
     position: absolute;
     top: 8%;
-    right: 20%;
-} */
+    right: 21.5%;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#thoughts {
+    position: relative;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+#thoughts > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 15%;
+    aspect-ratio: 1/1;
+    background-color: white;
+    border-radius: 50%;
+}
 
 /* DIN Condensed Regular
 
