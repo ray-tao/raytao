@@ -14,50 +14,76 @@ body {
     font-weight: 300;
     font-style: normal;
     font-size: 30px;
+    background-color: rgb(231, 234, 107);
     cursor: help;
 }
 
-#container {
+#question-marks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -2;
+    font-size: 10vw;
+    overflow: hidden;
+}
+
+#background {
+    position: absolute;
+    background-image: url(curiousgeorge.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    aspect-ratio: 1.93/1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h1 {
+    position: absolute;
+    bottom: 4vw;
+    font-size: 4.5vw;
+    color: white;
+}
+
+#eyes {
+    position: absolute;
+    width: 100%;
+    height: 75%;
     display: flex;
     align-items: center;
+    top: 2vw;
+    gap: 9vw;
     justify-content: center;
 }
 
 #circle {
     z-index: -1;
-    width: 310px;
-    height: 310px;
-    border-radius: 50%;
     position: absolute;
-    background-color: white;
 }
 
 .eye {
     position: relative;
     display: inline-block;
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
-    background: #ccc;
+    height: 9vw;
+    width: 9vw;
+    background: rgb(236, 237, 242);
 }
 .eye:after {
     position: absolute;
-    bottom: 68px;
-    right: 40px;
-    width: 40px;
-    height: 40px;
-    background: #000;
+    bottom: 5.105vw;
+    right: 3vw;
+    width: 3vw;
+    height: 3vw;
+    background: rgb(86, 52, 22);
     border-radius: 50%;
     content: " ";
-}
-
-#question-marks {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    position: absolute;
-    z-index: -2;
-    font-size: 55px;
 }
