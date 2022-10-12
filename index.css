@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 75vh;
+    min-height: 100vh;
     font-family: Andale Mono, monospace;
     margin-top: 80px;
     background-image: url("pexels-a.jpg");
@@ -12,18 +12,8 @@ body {
     background-size: cover;
 }
 
-#divtop {
-    margin-bottom: 10px;
-}
-
 #raytao {
-    font-size: 60px;
-}
-
-.link {
-    color: burlywood;
-    text-decoration: none;
-    color: black;
+    font-size: 3vw;
 }
 
 #divbottom {
@@ -37,19 +27,24 @@ body {
     align-items: center;
 }
 
+.link {
+    color: #6d6828;
+    text-decoration: none;
+}
+
 h2 {
-    background-color: burlywood;
     padding: 10px;
-    color: black;
     width: 10%;
-    transition: width 500ms ease-in-out;
+    font-size: 2vw;
     text-align: center;
 }
 
-h2:hover {
-    background-color: #c7965a;
+h2:hover > a {
+    color: #9b8a48;
     cursor: pointer;
-    width: 20%;
+}
+
+h2 {
 }
 
 .divbottom {

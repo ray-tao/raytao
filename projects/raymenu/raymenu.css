@@ -11,7 +11,7 @@ body {
     font-family: din-condensed, sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-image: url(./images/room.jpg);
+    background-image: url(./images/background.jpg);
     background-repeat: no-repeat;
     background-size: 120%;
     background-position: bottom;
@@ -63,12 +63,27 @@ body {
     background-image: url("./images/hug.png");
 }
 
+#warm-hug {
+    background-color: #ffc9bc;
+    opacity: 70%;
+}
+
 #talk {
     background-image: url("./images/talk.png");
 }
 
+#talk-therapy {
+    background-color: #b1dc2a;
+    opacity: 70%;
+}
+
 #bracelet {
     background-image: url("./images/bracelet.png");
+}
+
+#friendship-bracelet {
+    background-color: #f9b50b;
+    opacity: 70%;
 }
 
 .info {

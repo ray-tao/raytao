@@ -1,11 +1,17 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
 body {
     font-family: Andale Mono, monospace;
     margin: 0;
     background-image: url("../pexels-a.jpg");
-    background-repeat: no-repeat, repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 #background {
     height: 100vh;
     padding: 200px;
@@ -13,32 +19,33 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 10px;
 }
+
 #divtop {
     margin-bottom: 10px;
 }
+
 #projects {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #6d6828;
 }
 
-h2 {
-    background-color: burlywood;
-    padding: 10px;
-    color: black;
+.project {
     width: 50%;
-    transition: width 500ms ease-in-out;
-    text-align: center;
 }
 
-h2:hover {
-    background-color: #c7965a;
+h4 {
+    color: #8ca336;
+}
+
+h2:hover a {
+    color: #9b8a48;
     cursor: pointer;
-    width: 60%;
 }
 
 .divbottom {
