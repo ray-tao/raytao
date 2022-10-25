@@ -14,7 +14,7 @@ body {
     font-weight: 300;
     font-style: normal;
     font-size: 30px;
-    /* background-color: rgb(231, 234, 107); */
+    background-color: #f5e37f;
     cursor: help;
 }
 
@@ -35,10 +35,6 @@ body {
 
 #background {
     position: absolute;
-    background-image: url(curiousgeorge.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
     width: 100%;
     aspect-ratio: 1.93/1;
     display: flex;
@@ -48,9 +44,11 @@ body {
 
 h1 {
     position: absolute;
-    bottom: 4vw;
+    bottom: 15vw;
+    padding: 0.5vw;
     font-size: 4.5vw;
-    color: white;
+    color: black;
+    background-color: #d54062;
 }
 
 #eyes {
@@ -60,7 +58,7 @@ h1 {
     display: flex;
     align-items: center;
     top: 2vw;
-    gap: 9vw;
+    gap: 3vw;
     justify-content: center;
 }
 
@@ -83,7 +81,7 @@ h1 {
     right: 3vw;
     width: 3vw;
     height: 3vw;
-    background: rgb(86, 52, 22);
+    background: black;
     border-radius: 50%;
     content: " ";
 }

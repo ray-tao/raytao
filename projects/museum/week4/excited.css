@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100vh;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	background-color: white;
+	font-family: din-condensed, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+#excited {
+	width: 100vw;
+	text-align: center;
+}
+
+#excited > span {
+	stroke-width: 1.25px;
+	font-size: 100px;
+	text-shadow: 0 0px #f3c623, 0 0px #f2aaaa;
+	transform: translate(0, 100%) rotate(4deg);
+	display: inline-block;
+	color: black;
+}
+
+span:nth-child(1) {
+	animation: jump 2s ease-in-out infinite;
+	animation-delay: 120ms;
+}
+
+span:nth-child(2) {
+	animation: jump 2s ease-in-out infinite;
+	animation-delay: 240ms;
+}
+span:nth-child(3) {
+	animation: jump 2s ease-in-out infinite;
+	animation-delay: 360ms;
+}
+span:nth-child(4) {
+	animation: jump 2s ease-in-out infinite;
+	animation-delay: 480ms;
+}
+
+span:nth-child(5) {
+	animation: jump 2s ease-in-out infinite;
+	animation-delay: 500ms;
+}
+
+span:nth-child(6) {
+	animation: jump 2s ease-in-out infinite;
+	animation-delay: 620ms;
+}
+
+span:nth-child(7) {
+	animation: jump 2s ease-in-out infinite;
+	animation-delay: 740ms;
+}
+
+@keyframes jump {
+	33% {
+		text-shadow: 0 60px #f37121, 0 150px #f2aaaa;
+	}
+	50% {
+		transform: translate(0, 0) rotate(-4deg);
+		text-shadow: 0 0px #8fc0a9, 0 0px #84a9ac;
+	}
+	66.67% {
+		text-shadow: 0 -60px #d54062, 0 -150px #8fc0a9;
+	}
+}
+
+@media (max-height: 200px) {
+	#excited {
+		transform: scale(0.3, 0.3);
+	}
+}
+
+@media (max-width: 576px) {
+	#excited > span {
+		font-size: 50px;
+	}
+}
