@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+#prepend-btn {
+    width: auto;
+    height: auto;
+    position: fixed;
+    left: 300px;
+    top: 10px;
+    border: solid 1px black;
+}
+#append-btn {
+    width: auto;
+    height: auto;
+    position: fixed;
+    left: 400px;
+    top: 10px;
+    border: solid 1px black;
+}
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.newbox {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+#stop {
+    border: black 2px solid;
+    width: 100px;
+    height: 100px;
+}
+#colorchange {
+    border: black 2px solid;
+    width: 400px;
+    height: 100px;
+}

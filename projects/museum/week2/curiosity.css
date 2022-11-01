@@ -14,7 +14,7 @@ body {
     font-weight: 300;
     font-style: normal;
     font-size: 30px;
-    background-color: #f5e37f;
+    background-color: #e6c199;
     cursor: help;
 }
 
@@ -28,7 +28,7 @@ body {
     top: 0;
     left: 0;
     position: absolute;
-    z-index: -2;
+    z-index: 10;
     font-size: 10vw;
     overflow: hidden;
 }
@@ -44,11 +44,10 @@ body {
 
 h1 {
     position: absolute;
-    bottom: 15vw;
+    top: 15vw;
     padding: 0.5vw;
     font-size: 4.5vw;
-    color: black;
-    background-color: #d54062;
+    color: #a07a56;
 }
 
 #eyes {
@@ -57,7 +56,7 @@ h1 {
     height: 75%;
     display: flex;
     align-items: center;
-    top: 2vw;
+    top: 10vw;
     gap: 3vw;
     justify-content: center;
 }
@@ -84,4 +83,105 @@ h1 {
     background: black;
     border-radius: 50%;
     content: " ";
+}
+
+#question-marks > * {
+    position: absolute;
+    color: #593d24;
+}
+
+#reveal1,
+#answer1 {
+    top: 5vw;
+    left: 10vw;
+}
+
+#reveal2,
+#answer2 {
+    top: 3vw;
+    left: 40vw;
+}
+
+#reveal3,
+#answer3 {
+    bottom: 20vw;
+    left: 20vw;
+}
+
+#reveal4,
+#answer4 {
+    top: 35vw;
+    right: 10vw;
+}
+
+#reveal5,
+#answer5 {
+    top: 5vw;
+    right: 10vw;
+}
+
+#reveal6,
+#answer6 {
+    bottom: 5vw;
+    left: 10vw;
+}
+
+#reveal7,
+#answer7 {
+    bottom: 10vw;
+    right: 25vw;
+}
+
+#reveal1:hover + #answer1 {
+    display: block;
+    cursor: default;
+    color: black;
+    top: 3vw;
+}
+
+#reveal2:hover + #answer2 {
+    display: block;
+    cursor: pointer;
+    color: black;
+    top: 1vw;
+}
+
+#reveal3:hover + #answer3 {
+    display: block;
+    cursor: pointer;
+    color: black;
+    bottom: 18vw;
+}
+
+#reveal4:hover + #answer4 {
+    display: block;
+    cursor: pointer;
+    color: black;
+    top: 33vw;
+}
+
+#reveal5:hover + #answer5 {
+    display: block;
+    cursor: pointer;
+    color: black;
+    top: 3vw;
+}
+
+#reveal6:hover + #answer6 {
+    display: block;
+    cursor: pointer;
+    color: black;
+    bottom: 3vw;
+}
+
+#reveal7:hover + #answer7 {
+    display: block;
+    cursor: pointer;
+    color: black;
+    bottom: 8vw;
+}
+
+.answers {
+    display: none;
+    font-size: 2vw;
 }
