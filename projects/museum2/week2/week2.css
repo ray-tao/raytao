@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(week2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+    gap: 10px;
+    color: pink;
+    text-shadow: 1px 1px 0px rgba(255, 101, 147, 1),
+        2px 2px 0px rgba(198, 54, 92, 1);
+}

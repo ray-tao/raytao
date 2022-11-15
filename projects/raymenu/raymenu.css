@@ -11,10 +11,15 @@ body {
     font-family: din-condensed, sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-image: url(./images/background.jpg);
+    background-image: url(./images/raymenubackground.jpg);
     background-repeat: no-repeat;
-    background-size: 120%;
-    background-position: bottom;
+    background-size: 500%;
+}
+
+@media (max-width: 980px) {
+    body {
+        align-items: flex-start;
+    }
 }
 
 #background {
@@ -25,35 +30,29 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 70px;
 }
 
 #menu {
-    width: 900px;
-    height: 600px;
-    gap: 20px;
-    display: flex;
-}
-
-.menu-column {
-    display: flex;
-    height: 100%;
     width: 100%;
-    flex-direction: column;
-}
-
-.menu-info {
+    height: 200px;
+    gap: 20px;
+    perspective: 1000px;
     display: flex;
-    height: 50%;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(222, 184, 135, 0.7);
+    flex-wrap: wrap;
+}
+
+.flip-card {
+    width: 280px;
+    height: 100%;
+    gap: 20px;
+    perspective: 1000px;
 }
 
 .menu-img {
-    height: 50%;
-    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: center;
@@ -61,29 +60,23 @@ body {
 
 #hug {
     background-image: url("./images/hug.png");
-}
-
-#warm-hug {
-    background-color: #ffc9bc;
-    opacity: 70%;
+    position: absolute;
+    width: 250px;
+    z-index: 5;
 }
 
 #talk {
     background-image: url("./images/talk.png");
-}
-
-#talk-therapy {
-    background-color: #b1dc2a;
-    opacity: 70%;
+    position: absolute;
+    width: 275px;
+    z-index: 5;
 }
 
 #bracelet {
     background-image: url("./images/bracelet.png");
-}
-
-#friendship-bracelet {
-    background-color: #f9b50b;
-    opacity: 70%;
+    position: absolute;
+    width: 250px;
+    z-index: 5;
 }
 
 .info {
@@ -92,4 +85,50 @@ body {
     font-family: din-condensed, sans-serif;
     font-weight: 300;
     font-style: normal;
+}
+
+/* #menu-img:hover .flip-inner {
+    transform: rotateY(90deg);
+} */
+
+#menu:focus {
+    outline: 0;
+}
+
+.flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
+.flip-card:hover .flip-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-front {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-back {
+    transform: rotateY(180deg);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

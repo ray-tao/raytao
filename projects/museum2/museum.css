@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(museumhomepage.jpg);
+    background-size: cover;
+    padding-top: 5%;
+    gap: 20px;
+    color: lightcoral;
+}
+
+a {
+    color: lightcoral;
+}
