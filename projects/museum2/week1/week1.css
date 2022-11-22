@@ -7,11 +7,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(week1.jpg);
+    background-image: url(week1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 30%;
-    /* padding: 5%; */
     gap: 10px;
     color: pink;
     text-shadow: 1px 1px 0px rgba(255, 101, 147, 1),
