@@ -4,16 +4,107 @@
 }
 
 body {
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(museumhomepage.jpg);
+    background-image: url(museumhomepage.png);
     background-size: cover;
-    padding-top: 5%;
-    gap: 20px;
-    color: lightcoral;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: pink;
+    text-shadow: 1px 1px 0px rgba(255, 101, 147, 1),
+        2px 2px 0px rgba(198, 54, 92, 1);
+    font-family: a-otf-jun-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#weeks {
+    position: fixed;
+    width: 100%;
+    height: 50vw;
+    aspect-ratio: 1/1;
+}
+
+#weeks > * {
+    position: absolute;
+}
+
+h2 {
+    position: absolute;
+    font-size: 1.5vw;
+    top: 35%;
+    right: 25%;
 }
 
 a {
-    color: lightcoral;
+    color: pink;
+    font-size: 1.2vw;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+#week1 {
+    bottom: 10%;
+    right: 11.5%;
+}
+
+#week2 {
+    bottom: 13%;
+    right: 32%;
+}
+
+#week3 {
+    bottom: 15%;
+    right: 48%;
+}
+
+#week4 {
+    bottom: 17.5%;
+    right: 59.5%;
+}
+
+#week5 {
+    bottom: 20%;
+    right: 67.5%;
+}
+
+#week6 {
+    bottom: 22%;
+    right: 72.5%;
+}
+
+#week7 {
+    bottom: 24.5%;
+    right: 75%;
+}
+
+#week8 {
+    bottom: 27.5%;
+    right: 76%;
+}
+
+#week9 {
+    bottom: 30%;
+    right: 74.8%;
+}
+
+#week10 {
+    bottom: 32.5%;
+    right: 73%;
+}
+
+#week11 {
+    bottom: 35%;
+    right: 71%;
+}
+
+#week12 {
+    bottom: 37.4%;
+    right: 69%;
 }

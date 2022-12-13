@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 100vh;
+    background-image: url(week5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    gap: 10px;
+    color: pink;
+    text-shadow: 1px 1px 0px rgba(255, 101, 147, 1),
+        2px 2px 0px rgba(198, 54, 92, 1);
+    font-family: a-otf-jun-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+img {
+    width: 200px;
+    left: 0;
+}
+
+div {
+    position: absolute;
+    width: 10%;
+    bottom: 25%;
+    cursor: pointer;
+    text-align: center;
+}
+
+@media (max-width: 680px) {
+    div {
+        bottom: 10%;
+    }
+}
+
+#line1 {
+    left: 0;
+}
+
+#line2 {
+    left: 17%;
+}
+
+#line3 {
+    left: 34%;
+}
+
+#line4 {
+    left: 51%;
+}
+
+#line5 {
+    left: 68%;
+}
+
+#line6 {
+    left: 85%;
+}
+
+.div-animate {
+    animation: translate 15s 1 linear;
+}
+
+.img-animate {
+    animation: upDown 1.5s alternate infinite ease-in-out;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+}
+
+@keyframes upDown {
+    to {
+        transform: translateX(25px);
+    }
+}
+@keyframes translate {
+    to {
+        transform: translateY(-100vh);
+    }
+}

@@ -7,87 +7,30 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100vh;
     background-image: url(week2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 60% 0%;
-    overflow: hidden;
-    min-height: 100vh;
-    position: relative;
-    padding-top: 2.5%;
-    gap: 30px;
-    color: pink;
-    text-shadow: 1px 1px 0px rgba(255, 101, 147, 1),
-        2px 2px 0px rgba(198, 54, 92, 1);
+    background-position: center center;
+    gap: 1vw;
+    color: rgb(255, 175, 203);
+    text-shadow: 0px 0px 10px rgb(255, 73, 103);
+
+    font-family: a-otf-jun-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
-@media (max-width: 780px) {
-    #lines > div > h3 {
-        font-size: 12px;
-        width: 50px;
-        bottom: 25px;
-        left: 25px;
-    }
-
-    #lines > div > img {
-        width: 100px;
-    }
-
-    #lines > div {
-        width: 100px;
-        height: 167.5px;
-    }
+span {
+    font-size: 1.5vw;
+    line-height: 150%;
+    filter: brightness(120%);
+    cursor: pointer;
 }
 
-h3 {
-    width: 100px;
-    bottom: 60px;
-    left: 55px;
-}
-
-img {
-    width: 200px;
-}
-
-h3,
-img {
-    position: absolute;
-}
-
-div {
-    width: 200px;
-    height: 335px;
-    top: 3%;
-    left: 3%;
-    position: absolute;
-}
-
-#lines:hover {
-    width: 100%;
-    transition: 1s;
-}
-
-#lines:hover #line2 {
-    left: 18%;
-    transition: 1s;
-}
-
-#lines:hover #line3 {
-    left: 33%;
-    transition: 1s;
-}
-
-#lines:hover #line4 {
-    left: 48%;
-    transition: 1s;
-}
-
-#lines:hover #line5 {
-    left: 63%;
-    transition: 1s;
-}
-
-#lines:hover #line6 {
-    left: 78%;
-    transition: 1s;
+span:hover {
+    text-shadow: none;
+    color: whitesmoke;
 }

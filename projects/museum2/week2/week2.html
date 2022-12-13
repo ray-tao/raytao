@@ -3,33 +3,271 @@
     <head>
         <title>week2</title>
         <link rel="stylesheet" href="week2.css" type="text/css" />
+        <script>
+            (function (d) {
+                var config = {
+                        kitId: "med4ara",
+                        scriptTimeout: 3000,
+                        async: true,
+                    },
+                    h = d.documentElement,
+                    t = setTimeout(function () {
+                        h.className =
+                            h.className.replace(/\bwf-loading\b/g, "") +
+                            " wf-inactive";
+                    }, config.scriptTimeout),
+                    tk = d.createElement("script"),
+                    f = false,
+                    s = d.getElementsByTagName("script")[0],
+                    a;
+                h.className += " wf-loading";
+                tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+                tk.async = true;
+                tk.onload = tk.onreadystatechange = function () {
+                    a = this.readyState;
+                    if (f || (a && a != "complete" && a != "loaded")) return;
+                    f = true;
+                    clearTimeout(t);
+                    try {
+                        Typekit.load(config);
+                    } catch (e) {}
+                };
+                s.parentNode.insertBefore(tk, s);
+            })(document);
+        </script>
     </head>
     <body>
-        <div id="lines">
-            <div id="line2">
-                <img src="./window.png" />
-                <h3>is called the "Pink City</h3>
-            </div>
-            <div id="line3">
-                <img src="./window.png" />
-                <h3>with various heritage sites</h3>
-            </div>
-            <div id="line4">
-                <img src="./window.png" />
-                <h3>that are built in the color pink</h3>
-            </div>
-            <div id="line5">
-                <img src="./window.png" />
-                <h3>i find that there is such elegance</h3>
-            </div>
-            <div id="line6">
-                <img src="./window.png" />
-                <h3>to this beautiful idea</h3>
-            </div>
-            <div id="line1">
-                <img src="./window.png" />
-                <h3>the city of Jaipur in India</h3>
-            </div>
+        <div id="line1">
+            <h3 aria-label="if color is just a reflection of light">
+                <span class="char1" aria-hidden="true">i</span
+                ><span class="char2" aria-hidden="true">f</span
+                ><span class="char3" aria-hidden="true"> </span
+                ><span class="char4" aria-hidden="true">c</span
+                ><span class="char5" aria-hidden="true">o</span
+                ><span class="char6" aria-hidden="true">l</span
+                ><span class="char7" aria-hidden="true">o</span
+                ><span class="char8" aria-hidden="true">r</span
+                ><span class="char9" aria-hidden="true"> </span
+                ><span class="char10" aria-hidden="true">i</span
+                ><span class="char11" aria-hidden="true">s</span
+                ><span class="char12" aria-hidden="true"> </span
+                ><span class="char13" aria-hidden="true">j</span
+                ><span class="char14" aria-hidden="true">u</span
+                ><span class="char15" aria-hidden="true">s</span
+                ><span class="char16" aria-hidden="true">t</span
+                ><span class="char17" aria-hidden="true"> </span
+                ><span class="char18" aria-hidden="true">a</span
+                ><span class="char19" aria-hidden="true"> </span
+                ><span class="char20" aria-hidden="true">r</span
+                ><span class="char21" aria-hidden="true">e</span
+                ><span class="char22" aria-hidden="true">f</span
+                ><span class="char23" aria-hidden="true">l</span
+                ><span class="char24" aria-hidden="true">e</span
+                ><span class="char25" aria-hidden="true">c</span
+                ><span class="char26" aria-hidden="true">t</span
+                ><span class="char27" aria-hidden="true">i</span
+                ><span class="char28" aria-hidden="true">o</span
+                ><span class="char29" aria-hidden="true">n</span
+                ><span class="char30" aria-hidden="true"> </span
+                ><span class="char31" aria-hidden="true">o</span
+                ><span class="char32" aria-hidden="true">f</span
+                ><span class="char33" aria-hidden="true"> </span
+                ><span class="char34" aria-hidden="true">l</span
+                ><span class="char35" aria-hidden="true">i</span
+                ><span class="char36" aria-hidden="true">g</span
+                ><span class="char37" aria-hidden="true">h</span
+                ><span class="char38" aria-hidden="true">t</span>
+            </h3>
         </div>
+        <div id="line2">
+            <h3 aria-label="is each color just in our heads?">
+                <span class="char1" aria-hidden="true">i</span
+                ><span class="char2" aria-hidden="true">s</span
+                ><span class="char3" aria-hidden="true"> </span
+                ><span class="char4" aria-hidden="true">e</span
+                ><span class="char5" aria-hidden="true">a</span
+                ><span class="char6" aria-hidden="true">c</span
+                ><span class="char7" aria-hidden="true">h</span
+                ><span class="char8" aria-hidden="true"> </span
+                ><span class="char9" aria-hidden="true">c</span
+                ><span class="char10" aria-hidden="true">o</span
+                ><span class="char11" aria-hidden="true">l</span
+                ><span class="char12" aria-hidden="true">o</span
+                ><span class="char13" aria-hidden="true">r</span
+                ><span class="char14" aria-hidden="true"> </span
+                ><span class="char15" aria-hidden="true">j</span
+                ><span class="char16" aria-hidden="true">u</span
+                ><span class="char17" aria-hidden="true">s</span
+                ><span class="char18" aria-hidden="true">t</span
+                ><span class="char19" aria-hidden="true"> </span
+                ><span class="char20" aria-hidden="true">i</span
+                ><span class="char21" aria-hidden="true">n</span
+                ><span class="char22" aria-hidden="true"> </span
+                ><span class="char23" aria-hidden="true">o</span
+                ><span class="char24" aria-hidden="true">u</span
+                ><span class="char25" aria-hidden="true">r</span
+                ><span class="char26" aria-hidden="true"> </span
+                ><span class="char27" aria-hidden="true">h</span
+                ><span class="char28" aria-hidden="true">e</span
+                ><span class="char29" aria-hidden="true">a</span
+                ><span class="char30" aria-hidden="true">d</span
+                ><span class="char31" aria-hidden="true">s</span
+                ><span class="char32" aria-hidden="true">?</span>
+            </h3>
+        </div>
+        <div id="line3">
+            <h3 aria-label="in an alternate universe">
+                <span class="char1" aria-hidden="true">i</span
+                ><span class="char2" aria-hidden="true">n</span
+                ><span class="char3" aria-hidden="true"> </span
+                ><span class="char4" aria-hidden="true">a</span
+                ><span class="char5" aria-hidden="true">n</span
+                ><span class="char6" aria-hidden="true"> </span
+                ><span class="char7" aria-hidden="true">a</span
+                ><span class="char8" aria-hidden="true">l</span
+                ><span class="char9" aria-hidden="true">t</span
+                ><span class="char10" aria-hidden="true">e</span
+                ><span class="char11" aria-hidden="true">r</span
+                ><span class="char12" aria-hidden="true">n</span
+                ><span class="char13" aria-hidden="true">a</span
+                ><span class="char14" aria-hidden="true">t</span
+                ><span class="char15" aria-hidden="true">e</span
+                ><span class="char16" aria-hidden="true"> </span
+                ><span class="char17" aria-hidden="true">u</span
+                ><span class="char18" aria-hidden="true">n</span
+                ><span class="char19" aria-hidden="true">i</span
+                ><span class="char20" aria-hidden="true">v</span
+                ><span class="char21" aria-hidden="true">e</span
+                ><span class="char22" aria-hidden="true">r</span
+                ><span class="char23" aria-hidden="true">s</span
+                ><span class="char24" aria-hidden="true">e</span>
+            </h3>
+        </div>
+        <div id="line4">
+            <h3 aria-label="would they see pink as we see blue?">
+                <span class="char1" aria-hidden="true">w</span
+                ><span class="char2" aria-hidden="true">o</span
+                ><span class="char3" aria-hidden="true">u</span
+                ><span class="char4" aria-hidden="true">l</span
+                ><span class="char5" aria-hidden="true">d</span
+                ><span class="char6" aria-hidden="true"> </span
+                ><span class="char7" aria-hidden="true">t</span
+                ><span class="char8" aria-hidden="true">h</span
+                ><span class="char9" aria-hidden="true">e</span
+                ><span class="char10" aria-hidden="true">y</span
+                ><span class="char11" aria-hidden="true"> </span
+                ><span class="char12" aria-hidden="true">s</span
+                ><span class="char13" aria-hidden="true">e</span
+                ><span class="char14" aria-hidden="true">e</span
+                ><span class="char15" aria-hidden="true"> </span
+                ><span class="char16" aria-hidden="true">p</span
+                ><span class="char17" aria-hidden="true">i</span
+                ><span class="char18" aria-hidden="true">n</span
+                ><span class="char19" aria-hidden="true">k</span
+                ><span class="char20" aria-hidden="true"> </span
+                ><span class="char21" aria-hidden="true">a</span
+                ><span class="char22" aria-hidden="true">s</span
+                ><span class="char23" aria-hidden="true"> </span
+                ><span class="char24" aria-hidden="true">w</span
+                ><span class="char25" aria-hidden="true">e</span
+                ><span class="char26" aria-hidden="true"> </span
+                ><span class="char27" aria-hidden="true">s</span
+                ><span class="char28" aria-hidden="true">e</span
+                ><span class="char29" aria-hidden="true">e</span
+                ><span class="char30" aria-hidden="true"> </span
+                ><span class="char31" aria-hidden="true">b</span
+                ><span class="char32" aria-hidden="true">l</span
+                ><span class="char33" aria-hidden="true">u</span
+                ><span class="char34" aria-hidden="true">e</span
+                ><span class="char35" aria-hidden="true">?</span>
+            </h3>
+        </div>
+        <div id="line5">
+            <h3 aria-label="would water be pink? the sky too?">
+                <span class="char1" aria-hidden="true">w</span
+                ><span class="char2" aria-hidden="true">o</span
+                ><span class="char3" aria-hidden="true">u</span
+                ><span class="char4" aria-hidden="true">l</span
+                ><span class="char5" aria-hidden="true">d</span
+                ><span class="char6" aria-hidden="true"> </span
+                ><span class="char7" aria-hidden="true">w</span
+                ><span class="char8" aria-hidden="true">a</span
+                ><span class="char9" aria-hidden="true">t</span
+                ><span class="char10" aria-hidden="true">e</span
+                ><span class="char11" aria-hidden="true">r</span
+                ><span class="char12" aria-hidden="true"> </span
+                ><span class="char13" aria-hidden="true">b</span
+                ><span class="char14" aria-hidden="true">e</span
+                ><span class="char15" aria-hidden="true"> </span
+                ><span class="char16" aria-hidden="true">p</span
+                ><span class="char17" aria-hidden="true">i</span
+                ><span class="char18" aria-hidden="true">n</span
+                ><span class="char19" aria-hidden="true">k</span
+                ><span class="char20" aria-hidden="true">?</span
+                ><span class="char21" aria-hidden="true"> </span
+                ><span class="char22" aria-hidden="true">t</span
+                ><span class="char23" aria-hidden="true">h</span
+                ><span class="char24" aria-hidden="true">e</span
+                ><span class="char25" aria-hidden="true"> </span
+                ><span class="char26" aria-hidden="true">s</span
+                ><span class="char27" aria-hidden="true">k</span
+                ><span class="char28" aria-hidden="true">y</span
+                ><span class="char29" aria-hidden="true"> </span
+                ><span class="char30" aria-hidden="true">t</span
+                ><span class="char31" aria-hidden="true">o</span
+                ><span class="char32" aria-hidden="true">o</span
+                ><span class="char33" aria-hidden="true">?</span>
+            </h3>
+        </div>
+        <div id="line6">
+            <h3 aria-label="if light there reflected a different way?">
+                <span class="char1" aria-hidden="true">i</span
+                ><span class="char2" aria-hidden="true">f</span
+                ><span class="char3" aria-hidden="true"> </span
+                ><span class="char4" aria-hidden="true">l</span
+                ><span class="char5" aria-hidden="true">i</span
+                ><span class="char6" aria-hidden="true">g</span
+                ><span class="char7" aria-hidden="true">h</span
+                ><span class="char8" aria-hidden="true">t</span
+                ><span class="char9" aria-hidden="true"> </span
+                ><span class="char10" aria-hidden="true">t</span
+                ><span class="char11" aria-hidden="true">h</span
+                ><span class="char12" aria-hidden="true">e</span
+                ><span class="char13" aria-hidden="true">r</span
+                ><span class="char14" aria-hidden="true">e</span
+                ><span class="char15" aria-hidden="true"> </span
+                ><span class="char16" aria-hidden="true">r</span
+                ><span class="char17" aria-hidden="true">e</span
+                ><span class="char18" aria-hidden="true">f</span
+                ><span class="char19" aria-hidden="true">l</span
+                ><span class="char20" aria-hidden="true">e</span
+                ><span class="char21" aria-hidden="true">c</span
+                ><span class="char22" aria-hidden="true">t</span
+                ><span class="char23" aria-hidden="true">e</span
+                ><span class="char24" aria-hidden="true">d</span
+                ><span class="char25" aria-hidden="true"> </span
+                ><span class="char26" aria-hidden="true">a</span
+                ><span class="char27" aria-hidden="true"> </span
+                ><span class="char28" aria-hidden="true">d</span
+                ><span class="char29" aria-hidden="true">i</span
+                ><span class="char30" aria-hidden="true">f</span
+                ><span class="char31" aria-hidden="true">f</span
+                ><span class="char32" aria-hidden="true">e</span
+                ><span class="char33" aria-hidden="true">r</span
+                ><span class="char34" aria-hidden="true">e</span
+                ><span class="char35" aria-hidden="true">n</span
+                ><span class="char36" aria-hidden="true">t</span
+                ><span class="char37" aria-hidden="true"> </span
+                ><span class="char38" aria-hidden="true">w</span
+                ><span class="char39" aria-hidden="true">a</span
+                ><span class="char40" aria-hidden="true">y</span
+                ><span class="char41" aria-hidden="true">?</span>
+            </h3>
+        </div>
+        <script
+            type="text/javascript"
+            src="../../../jquery-3.6.1.min.js"
+        ></script>
+        <script type="text/javascript" src="./week2.js"></script>
     </body>
 </html>

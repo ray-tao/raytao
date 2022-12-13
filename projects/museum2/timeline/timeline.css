@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(pinkarthistory.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 25%;
+    min-height: 100vh;
+    position: relative;
+    color: pink;
+    text-shadow: 1px 1px 0px rgba(255, 101, 147, 1),
+        2px 2px 0px rgba(198, 54, 92, 1);
+    font-family: a-otf-jun-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
